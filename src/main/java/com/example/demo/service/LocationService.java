@@ -1,7 +1,6 @@
-package com.example.demo.service;
+package com.example.demo;
 
 import java.util.List;
-import com.example.demo.entity.LocationEntity;
 
 public interface LocationService {
 
