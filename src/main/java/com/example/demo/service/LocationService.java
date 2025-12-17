@@ -1,4 +1,5 @@
 package com.example.demo.service;
-public interface LoactionService{
+public interface LocationService{
     LocationEntity createlocation(LocationEntity location)
+    List<LocationEntity> getalllocation()
 }
