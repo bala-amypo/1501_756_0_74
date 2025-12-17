@@ -7,6 +7,6 @@ public interface LoactionServiceImpl implements LocationService{
     return Locationrepo.save(le);
    }
    public List<LocationEntity> getall(){
-    return 
+    return Locationrepo.findall();
    }
 }
